@@ -11,7 +11,21 @@ GitHub : https://github.com/funkymed/webservicesjs
 ##How to use:
 -------------
 
-You have to put a file named data.json next to your page structured like this :
+HTML:
+~~~
+<div id="videos">
+    <div id="slideshow" class="dragdealer">
+        <div class="handle">
+        </div>
+    </div>
+</div>
+
+<div id="video_controllers">
+    <div id="wf"></div>
+</div>
+~~~
+
+You have to add a file named data.json next to your page structured like this :
 
 time : time in milliseconde
 
