@@ -1,5 +1,4 @@
 #SC-SlideShow
--------------
 
 SC-SlideShow is a script will display image and play music. It will also fire event on change image.
 If you don't drag n drop image, it wil fire event by himself on time.
@@ -9,7 +8,6 @@ Demo : http://www.cyrilpereira.com/sc-slideshow
 GitHub : https://github.com/funkymed/webservicesjs
 
 ##How to use:
--------------
 
 HTML:
 ~~~
@@ -77,7 +75,6 @@ new SCSlideshow("/tracks/123456");
 ~~~
 
 #Options
--------------
 
 callback : will be use after an image slide
 
