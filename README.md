@@ -1,9 +1,11 @@
-#sc-slideshow
+#SC-SlideShow
 ============
 
-execute event on time with soundcloud player
+SC-SlideShow is a script will display image and play music. It will also fire event on change image.
+If you don't drag n drop image, it wil fire event by himself on time.
 
 Demo : http://www.cyrilpereira.com/sc-slideshow
+
 GitHub : https://github.com/funkymed/webservicesjs
 
 ##How to use:
@@ -11,13 +13,16 @@ GitHub : https://github.com/funkymed/webservicesjs
 
 You have to put a file named data.json next to your page structured like this :
 
+time : time in milliseconde
+
+slug : slug to be use url
+
 ~~~
 [
   {
     "time": 0,
     "slug": "robert-miles",
-    "image": "images\/image1.jpeg",
-    "description": "blah blah blah"
+    "image": "images\/image1.jpeg"
   },
   {
     "time": 100000,
@@ -61,6 +66,7 @@ new SCSlideshow("/tracks/123456");
 ============
 
 callback : will be use after an image slide
+
 showmakers : will display you the marker on the waveform
 
 ~~~
