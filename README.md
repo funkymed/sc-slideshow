@@ -7,7 +7,7 @@ Demo : http://www.cyrilpereira.com/sc-slideshow
 GitHub : https://github.com/funkymed/webservicesjs
 
 ##How to use:
-=============
+============
 
 You have to put a file named data.json next to your page structured like this :
 
@@ -50,7 +50,7 @@ You have to put a file named data.json next to your page structured like this :
     "image": "images\/image7.jpg"
   }
 ]
-~~
+~~~
 
 To start the player and slideshow just do this :
 ~~~
@@ -58,12 +58,12 @@ new SCSlideshow("/tracks/123456");
 ~~~
 
 #Options
+============
 
 callback : will be use after an image slide
 showmakers : will display you the marker on the waveform
 
 ~~~
-
 function myCallback(imageoffset)
 {
 
