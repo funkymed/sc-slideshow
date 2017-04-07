@@ -3,7 +3,7 @@
 SC-SlideShow is a script will display image, play music from soundcloud and display a waveform. It will also fire event on change image.
 If you don't drag n drop image, it wil fire event by himself on time.
 
-Demo : http://www.cyrilpereira.com/sc-slideshow
+Demo : http://med.planet-d.net/demo/web/sc-slideshow/
 
 GitHub : https://github.com/funkymed/webservicesjs
 
